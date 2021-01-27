@@ -1,6 +1,6 @@
 <template>
-    <div class="w-2/3 mx-auto flex-col">
-      <Header class="h-1/4 max-h-36"></Header>
+    <div class="w-2/3 h-screen mx-auto flex-col">
+      <Header class="h-1/4 max-h-52 pt-10"></Header>
       <Word class="h-96 mt-32"></Word>
     </div>
 </template>
@@ -20,9 +20,9 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Be Vietnam', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 2.5%;
+  
 }
 </style>
